@@ -32,7 +32,7 @@
         <p><input type="password" id="password" value="password" onBlur="if(this.value=='')this.value='password'" onFocus="if(this.value=='password')this.value=''"></p> <!-- JS because of IE support; better: placeholder="password" -->
 
         <p>
-          <input type="submit" formaction="signup.html" value="Register"></button>
+          <input type="submit" formaction="signup.html"></button>
           <input type="submit" value="Sign-In"></button>
         </p>
 
